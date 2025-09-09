@@ -1,34 +1,383 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harshitha Choudari - IIT Dharwad</title>
+    <title>Harshitha Reddy Choudari - CSE IIT Dharwad</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <header>
-        <h1>Harshitha Choudari</h1>
-        <p>B.Tech CSE | IIT Dharwad</p>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h3>Harshitha Reddy Choudari</h3>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
     </nav>
 
-    <section>
-        <h2>Welcome!</h2>
-        <p>I am a Computer Science undergraduate at IIT Dharwad, passionate about software development and machine learning.</p>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">HELLO FOLKS!</h1>
+                <h2 class="hero-subtitle">I'm <span class="highlight">Harshitha Reddy Choudari</span></h2>
+                <p class="hero-description">Computer Science & Engineering Student at IIT Dharwad</p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary">Learn More</a>
+                    <a href="https://github.com/ocehuem" target="_blank" class="btn btn-secondary">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-placeholder">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <footer>
-        <p>&copy; 2025 Harshitha Choudari</p>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About</h2>
+            <div class="about-content">
+                <p>
+                    I am a third year undergraduate student of the <a href="https://www.iitdh.ac.in/cse/" target="_blank">Department</a> 
+                    of Computer Science and Engineering, <a href="https://www.iitdh.ac.in/" target="_blank">Indian Institute of Technology, Dharwad</a>, India. 
+                    I was born in Kadapa, Andhra Pradesh.
+                </p>
+                <p>
+                    I was fortunate enough to know from a young age that I wanted to be an engineer. The engineering way of thinking 
+                    came naturally to me. What I didn't know was what type of engineer I wanted to be. When push came to shove, 
+                    I chose Software Engineering with a focus on <strong>Machine Learning</strong> and <strong>Full-Stack Development</strong>.
+                </p>
+                
+                <h3>Interests</h3>
+                <p>
+                    I enjoy working on challenging projects that combine technology with real-world applications. My interests span 
+                    across web development, machine learning, and distributed systems. I'm passionate about building scalable 
+                    applications and exploring the intersection of AI and software engineering.
+                </p>
+                <p>
+                    When I'm not coding, I enjoy participating in various college activities. I'm part of the Content Creation team 
+                    at college and have volunteered in the Entrepreneur Summit at IITDH 2024. I'm also an active member of NSO, NSS, 
+                    Literary Club, and Book Club.
+                </p>
+                
+                <h3>Current Focus</h3>
+                <p>
+                    Currently, I'm working on building intelligent systems that can handle real-world data efficiently. My recent 
+                    work includes developing tournament management systems, Chrome extensions for accessibility, and exploring 
+                    blockchain optimizations in peer-to-peer networks.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-timeline">
+                <div class="education-item">
+                    <div class="education-year">2022-2026</div>
+                    <div class="education-content">
+                        <h3>Bachelor of Technology in Computer Science and Engineering</h3>
+                        <h4>Indian Institute of Technology Dharwad</h4>
+                        <p class="grade">CGPA: 7.61/10 (76.1%)</p>
+                        <p>Relevant Coursework: Data Structures, Algorithms, Deep Learning, Machine Learning, 
+                           Operating Systems, Database Management Systems, Computer Networks, Computer Architecture, 
+                           Cryptography, Scalable Data Mining</p>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-year">2020-2022</div>
+                    <div class="education-content">
+                        <h3>Higher Secondary Education (XII)</h3>
+                        <h4>Narayana CBSE School</h4>
+                        <p class="grade">92.6%</p>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-year">2020</div>
+                    <div class="education-content">
+                        <h3>Secondary Education (X)</h3>
+                        <h4>Municipal School, Kadapa</h4>
+                        <p class="grade">99.3%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-share-alt"></i>
+                        <h3>P2P File Transfer System</h3>
+                    </div>
+                    <p>A peer-to-peer file transfer system with merkle tree optimization. Built using Flask backend 
+                       to ensure efficient and secure file transfers in distributed networks.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Flask</span>
+                        <span class="tech-tag">Blockchain</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/ocehuem" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="fas fa-play"></i> Demo
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fab fa-chrome"></i>
+                        <h3>Accessibility Chrome Extension</h3>
+                    </div>
+                    <p>A comprehensive Chrome extension to improve web accessibility by allowing users to change fonts, 
+                       toggle dark mode, increase contrast, and tweak brightness settings.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Chrome API</span>
+                        <span class="tech-tag">CSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/ocehuem" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-globe"></i>
+                        <h3>EasyDraws Tournament Platform</h3>
+                    </div>
+                    <p>Tournament management system built with ASP.NET and Azure. Features include Google authentication, 
+                       APIs, Firebase notifications, and is used across 13 countries.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">C#</span>
+                        <span class="tech-tag">ASP.NET</span>
+                        <span class="tech-tag">Azure</span>
+                        <span class="tech-tag">Firebase</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://easydraws.azurewebsites.net/" target="_blank" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Other Projects</h3>
+                    </div>
+                    <p>Additional projects including Socket Programming implementations, Compiler Design projects, 
+                       and various algorithmic solutions available on my GitHub profile.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">C</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">System Programming</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/ocehuem" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> View All
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">C</span>
+                        <span class="skill-item">Python</span>
+                        <span class="skill-item">C#</span>
+                        <span class="skill-item">JavaScript</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Frameworks & Tools</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">ASP.NET</span>
+                        <span class="skill-item">Flask</span>
+                        <span class="skill-item">Firebase</span>
+                        <span class="skill-item">Azure</span>
+                        <span class="skill-item">BeautifulSoup</span>
+                        <span class="skill-item">Scikit-learn</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain"></i> Core Concepts</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Deep Learning</span>
+                        <span class="skill-item">Machine Learning</span>
+                        <span class="skill-item">Data Structures</span>
+                        <span class="skill-item">Algorithms</span>
+                        <span class="skill-item">Cryptography</span>
+                        <span class="skill-item">Blockchain</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-cloud"></i> Cloud & DevOps</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Microsoft Azure</span>
+                        <span class="skill-item">Firebase Cloud Messaging</span>
+                        <span class="skill-item">Cloud Architecture</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <div class="experience-date">Sept 2024 - Apr 2025</div>
+                    <div class="experience-content">
+                        <h3>Full-Stack Developer</h3>
+                        <h4>BadmintonBuddy.com</h4>
+                        <p>Working on https://easydraws.azurewebsites.net/ alongside the founder of BadmintonBuddy. 
+                           Developing tournament management systems using advanced algorithms and data analysis.</p>
+                        <ul>
+                            <li>Built scalable web applications using ASP.NET, Azure, and C#</li>
+                            <li>Implemented Google authentication and Firebase notifications</li>
+                            <li>Deployed solutions used across 13 countries within 3 months of launch</li>
+                            <li>Developed algorithms for efficient tournament bracket generation</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-date">Summer 2024</div>
+                    <div class="experience-content">
+                        <h3>AI/ML Virtual Intern</h3>
+                        <h4>Vodafone VOIS</h4>
+                        <p>Participated in a comprehensive virtual internship focusing on AI and Large Language Models.</p>
+                        <ul>
+                            <li>Worked on ML pipelines for real-world datasets</li>
+                            <li>Performed feature engineering and model validation</li>
+                            <li>Gained hands-on experience with data analytics in AI-LLMs</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section class="achievements">
+        <div class="container">
+            <h2 class="section-title">Achievements & Certifications</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>MS Excel Certification</h3>
+                    <p>Coursera</p>
+                </div>
+                <div class="achievement-card">
+                    <i class="fas fa-award"></i>
+                    <h3>IIT Guwahati Summer Analyst</h3>
+                    <p>Virtual Internship Program</p>
+                </div>
+                <div class="achievement-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Content Creation Team</h3>
+                    <p>IIT Dharwad</p>
+                </div>
+                <div class="achievement-card">
+                    <i class="fas fa-handshake"></i>
+                    <h3>Entrepreneur Summit Volunteer</h3>
+                    <p>IITDH 2024</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p><a href="mailto:ocehuem@gmail.com">ocehuem@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p><a href="tel:+916304574930">+91 6304574930</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Kadapa, Andhra Pradesh, India</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/harshitha-reddy-choudari-9a22ab25a/" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/ocehuem" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Harshitha Reddy Choudari. All rights reserved.</p>
+        </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
