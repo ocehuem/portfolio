@@ -1,0 +1,46 @@
+body {
+  background: #0f172a;
+  color: #e5e7eb;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #38bdf8;
+}
+
+.subtitle {
+  text-align: center;
+  color: #94a3b8;
+  margin-bottom: 30px;
+}
+
+.category {
+  margin-bottom: 50px;
+}
+
+h2 {
+  color: #22c55e;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #020617;
+}
+
+th, td {
+  border: 1px solid #1e293b;
+  padding: 8px;
+}
+
+th {
+  background: #020617;
+  color: #facc15;
+}
+
+tr:hover {
+  background: #1e293b;
+}
