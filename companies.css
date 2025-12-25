@@ -1,0 +1,98 @@
+:root {
+  --yellow: #FFD41D;
+  --orange: #FFA240;
+  --red-dark: #D73535;
+  --red-light: #FF4646;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f9fafb;
+  color: #222;
+}
+
+.hero {
+  background: linear-gradient(135deg, var(--yellow), var(--orange));
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.7rem;
+  margin-bottom: 0.6rem;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  max-width: 850px;
+  margin: auto;
+}
+
+.content {
+  max-width: 1200px;
+  margin: auto;
+  padding: 3rem 1.5rem;
+}
+
+.section {
+  margin-bottom: 4rem;
+}
+
+.section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.4rem;
+}
+
+.note {
+  color: #555;
+  margin-bottom: 1.4rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.4rem;
+}
+
+.card {
+  background: white;
+  padding: 1.3rem;
+  border-radius: 14px;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.08);
+  font-weight: 600;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  border-top: 4px solid var(--yellow);
+}
+
+.card span {
+  display: block;
+  margin-top: 0.35rem;
+  font-weight: 500;
+  color: var(--orange);
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 30px rgba(0,0,0,0.15);
+}
+
+.card.highlight {
+  border-top: 4px solid var(--red-light);
+  background: linear-gradient(180deg, #fff, #fff4f4);
+}
+
+.card.danger {
+  border-top: 4px solid var(--red-dark);
+  background: linear-gradient(180deg, #fff, #ffeaea);
+}
+
+.footnote {
+  margin-top: 1.2rem;
+  font-size: 0.9rem;
+  color: #666;
+}
